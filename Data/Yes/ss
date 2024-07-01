@@ -1,0 +1,12 @@
+import tensorflow as tf
+from tensorflow.keras.models import load_model
+import numpy as np
+
+# Path to your .h5 file
+model_path = r"C:\\Users\\sayam\\OneDrive\\Desktop\\converted_keras (1)\\keras_model.h5"
+
+# Load the model
+model = load_model(model_path)
+
+# Print the model summary to verify it loaded correctly
+model.summary()
